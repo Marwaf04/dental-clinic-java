@@ -10,13 +10,13 @@ A menu-driven command-line application built in Java for managing dental clinic 
 - Update patient name, gender, or age
 - Display all patients
 - Export all patient records to a CSV file
-- Save/load patient data to/from a file (`clinic_data.txt`)
+- Save/load patient data to/from a file (clinic_data.txt)
 
 ## Technologies Used
 
 - Java (OOP)
-- `ArrayList` for dynamic data management
-- Object Serialization (`ObjectOutputStream`, `ObjectInputStream`)
+- ArrayList for dynamic data management
+- Object Serialization (ObjectOutputStream, ObjectInputStream)
 - File I/O for CSV export
 
 ## How to Compile and Run
@@ -31,7 +31,7 @@ javac DentalClinicDriver.java Clinic.java Individual.java
 java DentalClinicDriver
 ```
 
-The application will load existing data from `clinic_data.txt` if it exists and save updates upon exit.
+The application will load existing data from clinic_data.txt if it exists and save updates upon exit.
 
 ## File Structure
 
@@ -39,8 +39,8 @@ The application will load existing data from `clinic_data.txt` if it exists and 
 ├── DentalClinicDriver.java   # Main menu and program logic
 ├── Clinic.java               # Handles list of patients and business logic
 ├── Individual.java           # Defines the patient data model
-├── clinic_data.txt           # (Created on run) Stores serialized data
-├── patients.csv              # (Optional) Exported CSV of patients
+├── clinic_data.txt           # Stores serialized data
+├── patients.csv              # Exported CSV of patients
 ```
 
 ## Author
